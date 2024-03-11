@@ -1,5 +1,12 @@
 <script>
     import { setContext } from "svelte";
+    import { onMount } from "svelte";
+
+    onMount(() => {
+    console.log("hi");
+
+    
+});
 </script>
 
 <section>

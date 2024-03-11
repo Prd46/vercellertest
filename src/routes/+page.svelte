@@ -2,8 +2,8 @@
 	// import Counter from './Counter.svelte';
 	// import welcome from '$lib/images/svelte-welcome.webp';
 	// import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import Card from './Card.svelte';
-	import Filter from './Filter.svelte';
+	// import Card from './Card.svelte';
+	// import Filter from './Filter.svelte';
 	// const pageTitle = document.title;
 	export let data;
 
@@ -43,7 +43,7 @@ let categories = ["7-String", "8-String", "Amp", "Pre-Amp", "Cable", "Strings"];
 		</div>
 	</div>
 </section>
-<Filter />
+<!-- <Filter /> -->
     <main>
 		{#if data.items}
 		{#each categories as itemCategory}
