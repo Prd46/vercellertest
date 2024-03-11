@@ -2,10 +2,8 @@
 	// import Counter from './Counter.svelte';
 	// import welcome from '$lib/images/svelte-welcome.webp';
 	// import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import Carousel from './Carousel.svelte';
 	import Card from './Card.svelte';
 	import Filter from './Filter.svelte';
-	// import { formatPrice } from '$lib/utils';
 	// const pageTitle = document.title;
 	export let data;
 
